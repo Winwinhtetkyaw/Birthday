@@ -26,9 +26,9 @@ animateCSS('three', 'rotateIn', 6);
 setTimeout(() => { document.querySelector('.one').classList.add('animate__animated', 'animate__zoomOut'); }, 6 * 800);
 animateCSS('wish-hbd', 'fadeInUpBig', 0);
 animateCSS('wishText', 'fadeIn', 0);
-animateCSS('heart', 'bounceInLeft', 0);
-animateCSS('refresh-btn', 'bounceIn', 0);
-animateCSS('heart-icon', 'heartBeat', 0);
+// animateCSS('heart', 'bounceInLeft', 0);
+// animateCSS('refresh-btn', 'bounceIn', 0);
+// animateCSS('heart-icon', 'heartBeat', 0);
 
 
 /* Balloon animation from https://codepen.io/Jemimaabu/pen/vYEYdOy */
@@ -68,9 +68,9 @@ window.onload = function () {
 
 // You can add a refresh Button using this...
 // Play around with the HTML and CSS to use this correctly
-function refreshPage() {
-  window.location.reload();
-}
+// function refreshPage() {
+//   window.location.reload();
+// }
 
 // You can add a count up timer, ending at a a certain number, to Indicate Years...
 // Play around with the HTML and CSS to use this correctly
@@ -86,17 +86,17 @@ setTimeout(function () {
 
 
 // takes custom input from input.json from whichever field is not empty, otherwise html text is used.
-const fetchData = () => {
-  fetch("input.json")
-    .then(data => data.json())
-    .then(data => {
-      Object.keys(data).map(key => {
-        if (data[key] !== "") {
-            //console.log(key,data[key])
-            document.getElementById(key).innerText = data[key];
-          }
-        });
-    });
-}
+// const fetchData = () => {
+//   fetch("input.json")
+//     .then(data => data.json())
+//     .then(data => {
+//       Object.keys(data).map(key => {
+//         if (data[key] !== "") {
+//             //console.log(key,data[key])
+//             document.getElementById(key).innerText = data[key];
+//           }
+//         });
+//     });
+// }
 
-fetchData();
+// fetchData();

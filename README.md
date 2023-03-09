@@ -1,2 +1,2 @@
 # WishU
-###Happy Birthday 🥳
+Happy Birthday 🥳

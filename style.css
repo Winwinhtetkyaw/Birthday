@@ -153,7 +153,13 @@ img.center {
 h5 {
     font-weight: lighter;
     font-size: 1.5rem;
-    margin: 10px 0 0;
+    line-height: 1.4;
+    margin: -10px 0 0;
+}
+
+#wishText{
+    color: rgb(18 101 232);
+    font-weight: 700;
 }
 
 /* Remove `display: none` to use Refresh button and Count-up timer */
